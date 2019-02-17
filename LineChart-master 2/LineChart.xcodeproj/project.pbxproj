@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BD247B3422190689006AD904 /* DotCALayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD247B3322190689006AD904 /* DotCALayer.swift */; };
 		D702DD4E1F4FC52C0057F54F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D702DD4D1F4FC52C0057F54F /* AppDelegate.swift */; };
 		D702DD501F4FC52C0057F54F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D702DD4F1F4FC52C0057F54F /* ViewController.swift */; };
 		D702DD531F4FC52C0057F54F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D702DD511F4FC52C0057F54F /* Main.storyboard */; };
@@ -17,6 +18,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		BD247B3322190689006AD904 /* DotCALayer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DotCALayer.swift; sourceTree = "<group>"; };
 		D702DD4A1F4FC52C0057F54F /* LineChart.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LineChart.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D702DD4D1F4FC52C0057F54F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D702DD4F1F4FC52C0057F54F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -62,6 +64,7 @@
 				D702DD4F1F4FC52C0057F54F /* ViewController.swift */,
 				D702DD611F5060710057F54F /* CurveAlgorithm.swift */,
 				D702DD631F506FE80057F54F /* LineChart.swift */,
+				BD247B3322190689006AD904 /* DotCALayer.swift */,
 				D702DD511F4FC52C0057F54F /* Main.storyboard */,
 				D702DD541F4FC52C0057F54F /* Assets.xcassets */,
 				D702DD561F4FC52C0057F54F /* LaunchScreen.storyboard */,
@@ -143,6 +146,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BD247B3422190689006AD904 /* DotCALayer.swift in Sources */,
 				D702DD641F506FE80057F54F /* LineChart.swift in Sources */,
 				D702DD501F4FC52C0057F54F /* ViewController.swift in Sources */,
 				D702DD4E1F4FC52C0057F54F /* AppDelegate.swift in Sources */,
@@ -312,6 +316,7 @@
 				D702DD5E1F4FC52C0057F54F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
